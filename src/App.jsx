@@ -1,12 +1,11 @@
-import { useState } from 'react'
-import Header from './Components/Header'
-import './App.css'
+import Header from './Components/Header';
+import './App.css';
 
 function App() {
   const sections = [
     { title: 'পিরের পরা পানি', url: '#' },
     { title: 'পিরের অলউকিক ফু', url: '#' },
-    {title:"পিরের মুরিদ Subscription", url: '#' }
+    {title:"পিরের মুরিদ হন ", url: '#' }
   ];
  const title="ডিজিটাল পিরের ডিজিটাল মাঝার";
 
@@ -14,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <Header sections={sections} title={title}/>
+      <img src="" alt="" srcset="" />
     </div>
   )
 }

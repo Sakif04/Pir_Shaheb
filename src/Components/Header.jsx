@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
+import pir from '../../assets/pir.jpg'
 
 function Header(props) {
   const { sections, title } = props;
@@ -15,6 +16,7 @@ function Header(props) {
         align="center">
         {title}
         </Typography>
+       
       
       <Toolbar
         component="nav"
@@ -36,6 +38,7 @@ function Header(props) {
           </Link>
         ))}
       </Toolbar>
+      <img src={pir} alt="" srcset="" width="400px" style={{"align-self":"start",}}/>
     </React.Fragment>
   );
 }
