@@ -1,0 +1,21 @@
+import { useState } from 'react'
+import Header from './Components/Header'
+import './App.css'
+
+function App() {
+  const sections = [
+    { title: 'পিরের পরা পানি', url: '#' },
+    { title: 'পিরের অলউকিক ফু', url: '#' },
+    {title:"পিরের মুরিদ Subscription", url: '#' }
+  ];
+ const title="ডিজিটাল পিরের ডিজিটাল মাঝার";
+
+
+  return (
+    <div className="App">
+      <Header sections={sections} title={title}/>
+    </div>
+  )
+}
+
+export default App
